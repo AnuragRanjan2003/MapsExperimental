@@ -53,4 +53,5 @@ Extend the activity so as to implement `OnMapReadyCallback`
         }
    ```
   3. On location update use ``  newMarker.position = loc ``
+  4. use `` map.animateCamera(CameraUpdateFactory.newLatLngZoom(loc,17.0f)) `` to focus on new location
 
