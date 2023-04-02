@@ -5,10 +5,10 @@ An experimental android app where in all required features of Google maps were i
 Extend the activity so as to implement `OnMapReadyCallback` 
 
 ## Set Up
- ### 1. Add dependency.
- ### 2. Add Api Key as String in string res `string.xml` file.
- ### 3. Add permisions of location and internet.
- ### 4. Add to `activity.xml` file
+ #### 1. Add dependency.
+ #### 2. Add Api Key as String in string res `string.xml` file.
+ #### 3. Add permisions of location and internet.
+ #### 4. Add to `activity.xml` file
  ```xml
      <fragment
         android:id="@+id/map"
